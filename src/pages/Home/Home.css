@@ -1,0 +1,39 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1E1E1E;
+  }
+  
+  .nameSearch {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh; /* Adjust the margin-top as needed */
+  }
+  
+  .selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh; /* Adjust the margin-top as needed */
+    width: 80vw;
+  }
+  
+  .topTwo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh; /* Adjust the margin-bottom as needed */
+  }
+  
+  .bottomOne {
+    margin-top: 5vh; /* Adjust the margin-top as needed */
+  }
+  
+  .tops {
+    width: 30vw; /* Adjust the max-width as needed */
+    height: auto;
+  }
+  

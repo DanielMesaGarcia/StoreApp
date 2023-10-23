@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    width: 99%;
+    height: 20vw;
+    /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border: 2px solid #ff0000;
+    /* Bright red thin border */
+    color: #ffffff;
+    top: 0;
+}
