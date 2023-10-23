@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    width: 99%;
+    width: 99vw;
     height: 20vw;
     /* Adjust the height as needed */
     display: flex;

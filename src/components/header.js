@@ -6,7 +6,7 @@ import Home from '../pages/Home/Home';
 const Header = () => {
     return (
         <header className="header">
-            <Link to={Home}>
+            <Link to="/home">
                 <h1>Welcome to Your App</h1>
             </Link>
         </header>

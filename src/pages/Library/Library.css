@@ -1,0 +1,53 @@
+.Library {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1E1E1E;
+    margin-top: 20vw;
+}
+
+.leftSection {
+    flex: 1;
+    background-color: #000000;
+    border: 2px solid #ff0000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nameSearch {
+    display: flex;
+    justify-content: flex-start;
+}
+
+input {
+    width: 90%;
+}
+
+.gameList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.gameList li {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.rightSection {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.rightSection img {
+    flex: 1;
+    width: 35vw;
+    margin-bottom: 20px;
+}

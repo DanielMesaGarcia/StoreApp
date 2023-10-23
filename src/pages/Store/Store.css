@@ -1,4 +1,4 @@
-.Home {
+.Store {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,4 +42,18 @@
     /* Adjust the max-width as needed */
     height: auto;
     margin: 4vw;
+}
+
+.bottoms {
+    width: 30vw;
+    /* Adjust the max-width as needed */
+    height: auto;
+    margin: 4vw;
+}
+.bottomTwo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+    /* Adjust the margin-bottom as needed */
 }
