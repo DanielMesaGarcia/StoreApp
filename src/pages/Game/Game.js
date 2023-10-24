@@ -24,9 +24,24 @@ const Game = () => {
                     </div>
                 </div>
                 <div className='rightRectangles'>
-                    <div className='smallRectangle'></div>
-                    <div className='smallRectangle'></div>
-                </div>
+    <div className='smallRectangle'>
+        <div>
+            <p>Simulando impuestos y cobros</p>
+            <button >Pay</button>
+        </div>
+    </div>
+    <div className='smallRectangle'>
+        <div>
+            <p>Your Review</p>
+            <div>
+                <Rate allowHalf defaultValue={2.5} />
+                <input type="text" placeholder="Write a review" />
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
             </div>
         </div>
     );

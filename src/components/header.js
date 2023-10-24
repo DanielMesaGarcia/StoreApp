@@ -6,7 +6,9 @@ const Header = () => {
     return (
         <header className="header">
             <Link to="/home">
-                <h1>Welcome to Your App</h1>
+                <div className='imgHeader'>
+            <img className="immg" src='img\CounterStrike.webp' alt='counter' />
+            </div>
             </Link>
         </header>
     );

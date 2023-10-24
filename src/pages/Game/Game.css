@@ -1,8 +1,16 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .Game {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1E1E1E;
+    height: 100vh;
     margin-top: 20vw;
 }
 
@@ -15,7 +23,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .leftRectangle {
@@ -38,13 +45,26 @@
 .rightRectangles {
     display: flex;
     flex-direction: column;
-    
+    width: 30vw; /* Ajuste del ancho de la sección derecha */
 }
 
 .smallRectangle {
-    width: 20vw;
-    height: 20vw;
+    flex: 1; /* Hace que todos los rectángulos pequeños tengan el mismo tamaño */
     margin-bottom: 20px;
     background-color: #000000;
     border: 2px solid #ff0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Alinear los elementos verticalmente */
+    padding: 20px; /* Agregar un poco de espacio interno */
+    color:white;
+}
+
+.smallRectangle p {
+    margin-bottom: 10px; /* Ajuste de margen inferior para el párrafo dentro del rectángulo pequeño */
+}
+
+.smallRectangle button,
+.smallRectangle input {
+    margin-top: 10px; /* Ajuste de margen superior para los botones y la entrada de texto */
 }

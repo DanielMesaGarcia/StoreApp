@@ -52,3 +52,9 @@ input {
     margin-bottom: 20px;
     box-sizing: border-box; /* Ajuste del box-sizing */
 }
+body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 80vw;
+  }
