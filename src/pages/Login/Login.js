@@ -29,9 +29,9 @@ const Login = () => {
             <Input.Password />
           </Form.Item>
 
-          <Form.Item name="remember" valuePropName="checked">
+          {/* <Form.Item name="remember" valuePropName="checked">
             <Checkbox>Remember me</Checkbox>
-          </Form.Item>
+          </Form.Item> */}
 
           <Form.Item>
             <Link to="/home">

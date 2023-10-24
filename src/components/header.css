@@ -7,8 +7,9 @@
     align-items: center;
     justify-content: center;
     background-color: #000000;
-    border: 2px solid #ff0000;
+    border: .5vw solid #ff0000;
     /* Bright red thin border */
     color: #ffffff;
     top: 0;
+    z-index: 1000; /* Ajusta el valor de z-index según sea necesario para asegurarte de que esté por encima de otros elementos */
 }

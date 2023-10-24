@@ -1,9 +1,10 @@
 .Library {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 96vw;
     background-color: #1E1E1E;
     margin-top: 20vw;
+    overflow-x: hidden; /* Evitar desplazamiento horizontal */
 }
 
 .leftSection {
@@ -13,22 +14,23 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .nameSearch {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 20px; /* Agregado para separar el input de la lista de juegos */
 }
 
 input {
-    width: 90%;
+    width: 100%; /* Asegurar que el ancho del input sea del 100% */
+    box-sizing: border-box; /* Ajuste del box-sizing */
 }
 
 .gameList {
     list-style-type: none;
     padding: 0;
-    margin-top: 20px;
+    margin: 0;
 }
 
 .gameList li {
@@ -40,14 +42,13 @@ input {
     margin-top: 5vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     justify-content: center;
     flex: 1;
 }
 
 .rightSection img {
-    flex: 1;
     width: 35vw;
     margin-bottom: 20px;
+    box-sizing: border-box; /* Ajuste del box-sizing */
 }

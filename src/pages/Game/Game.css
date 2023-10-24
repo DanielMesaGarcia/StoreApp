@@ -1,0 +1,50 @@
+.Game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1E1E;
+    margin-top: 20vw;
+}
+
+.nameSearchs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gameContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.leftRectangle {
+    width: 40vw;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #000000;
+    border: 2px solid #ff0000;
+    color: white;
+}
+
+.leftRectangle img {
+    width: 100%;
+}
+
+.leftRectangle h2 {
+    margin: 10px 0;
+}
+
+.rightRectangles {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.smallRectangle {
+    width: 20vw;
+    height: 20vw;
+    margin-bottom: 20px;
+    background-color: #000000;
+    border: 2px solid #ff0000;
+}
