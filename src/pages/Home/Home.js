@@ -26,7 +26,7 @@ const Home = () => {
         </div>
         <div className='bottomOne'>
           <Link to="/game">
-            <img src='img\CounterStrike.webp' alt='counter'></img>
+            <img src='img\CounterStrike.webp' alt='counter' id="bot"></img>
           </Link>
         </div>
       </div>

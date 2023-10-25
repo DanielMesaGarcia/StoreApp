@@ -5,34 +5,34 @@ import { Input } from 'antd';
 import { Link } from 'react-router-dom';
 const Store = () => {
   return (
-    <div className='Store'>
+    <div className='StoreNew'>
       <Header />
-      <div className='nameSearch'>
+      <div className='nameSearchNew'>
         <Input/>
       </div>
 
-      <div className='selector'>
-        <div className='topTwo'>
-          <div className='left'>
+      <div className='selectorNew'>
+        <div className='topTwoNew'>
+          <div className='leftNew'>
             <Link to="/game">
-              <img src='img\CounterStrike.webp' alt='counter' className='tops'></img>
+              <img src='img\CounterStrike.webp' alt='counter' className='topsNew'></img>
             </Link>
           </div>
-          <div className='right'>
+          <div className='rightNew'>
             <Link to="/game">
-              <img src='img\CounterStrike.webp' alt='counter' className='tops'></img>
+              <img src='img\CounterStrike.webp' alt='counter' className='topsNew'></img>
             </Link>
           </div>
         </div>
-        <div className='bottomTwo'>
-          <div className='left'>
+        <div className='bottomTwoNew'>
+          <div className='leftNew'>
             <Link to="/game">
-              <img src='img\CounterStrike.webp' alt='counter' className='bottoms'></img>
+              <img src='img\CounterStrike.webp' alt='counter' className='bottomsNew'></img>
             </Link>
           </div>
-          <div className='right'>
+          <div className='rightNew'>
             <Link to="/game">
-              <img src='img\CounterStrike.webp' alt='counter' className='bottoms'></img>
+              <img src='img\CounterStrike.webp' alt='counter' className='bottomsNew'></img>
             </Link>
           </div>
         </div>

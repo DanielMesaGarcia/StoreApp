@@ -1,7 +1,7 @@
 .header {
     position: fixed;
-    width: 99vw;
-    height: 20vw;
+    width: 100vw;
+    height: 15vh;
     /* Adjust the height as needed */
     display: flex;
     align-items: center;
@@ -13,8 +13,8 @@
     z-index: 1000; /* Ajusta el valor de z-index según sea necesario para asegurarte de que esté por encima de otros elementos */
 }
 .imgHeader{
-    width: 15vw;
-    height: 15vw;;
+    width: 13vh;
+    height: 13vh;;
 }
 .immg{
     width: 100%;

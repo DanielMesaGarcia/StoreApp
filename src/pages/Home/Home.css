@@ -3,15 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
     background-color: #1E1E1E;
+    margin-top: 15vh;
+    height: 100vh;
 }
 
 .nameSearch {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
     /* Adjust the margin-top as needed */
 }
 
@@ -19,7 +18,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vh;
     /* Adjust the margin-top as needed */
     width: 80vw;
 }
@@ -36,6 +34,9 @@
     margin-top: 5vh;
     /* Adjust the margin-top as needed */
 }
+#bot{
+    width: 60vw;
+}
 
 .tops {
     width: 30vw;
@@ -47,5 +48,6 @@ body,
   html {
     margin: 0;
     padding: 0;
-    height: 80vw;
+    height: 100vh;
+    width: 100vw;
   }
