@@ -5,13 +5,14 @@
     justify-content: center;
     background-color: #1E1E1E;
     margin-top: 15vh;
-    height: 100vh;
+    height: 100%;
 }
 
 .nameSearch {
     display: flex;
     justify-content: center;
     /* Adjust the margin-top as needed */
+    margin-top: 5vh;
 }
 
 .selector {
@@ -35,11 +36,11 @@
     /* Adjust the margin-top as needed */
 }
 #bot{
-    width: 60vw;
+    width: 40vw;
 }
 
 .tops {
-    width: 30vw;
+    width: 20vw;
     /* Adjust the max-width as needed */
     height: auto;
     margin: 4vw;
@@ -50,4 +51,5 @@ body,
     padding: 0;
     height: 100vh;
     width: 100vw;
+    background-color: #1E1E1E;
   }
