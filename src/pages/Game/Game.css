@@ -6,7 +6,22 @@ html {
     width: 100vw;
 
 }
+.leftRectangle .ant-rate {
+    pointer-events: none; /* Hace que el Rate no sea interactuable */
+}
 
+.leftRectangle .ant-radio-wrapper,
+.leftRectangle .ant-radio {
+    color: white; /* Cambia el color del texto de los Radio a blanco */
+}
+
+.leftRectangle .ant-radio-checked .ant-radio-inner {
+    background-color: white; /* Cambia el fondo del círculo de los Radio a blanco cuando está seleccionado */
+}
+
+.leftRectangle .ant-radio-checked .ant-radio-input {
+    border-color: white; /* Cambia el color del borde del círculo de los Radio a blanco cuando está seleccionado */
+}
 .Game {
     display: flex;
     flex-direction: column;

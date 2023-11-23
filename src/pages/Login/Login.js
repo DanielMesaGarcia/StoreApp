@@ -35,7 +35,7 @@ const Login = () => {
 
           <Form.Item>
             <Link to="/home">
-            <Button type="primary" htmlType="submit">
+            <Button type="primary" htmlType="submit" id='LoginButton'>
               Submit
             </Button>
             </Link>

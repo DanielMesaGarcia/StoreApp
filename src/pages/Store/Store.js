@@ -16,11 +16,13 @@ const Store = () => {
           <div className='leftNew'>
             <Link to="/game">
               <img src='img\CounterStrike.webp' alt='counter' className='topsNew'></img>
+              <p>Game 1</p>
             </Link>
           </div>
           <div className='rightNew'>
             <Link to="/game">
               <img src='img\CounterStrike.webp' alt='counter' className='topsNew'></img>
+              <p>Game 2</p>
             </Link>
           </div>
         </div>
@@ -28,11 +30,13 @@ const Store = () => {
           <div className='leftNew'>
             <Link to="/game">
               <img src='img\CounterStrike.webp' alt='counter' className='bottomsNew'></img>
+              <p>Game 3</p>
             </Link>
           </div>
           <div className='rightNew'>
             <Link to="/game">
               <img src='img\CounterStrike.webp' alt='counter' className='bottomsNew'></img>
+              <p>Game 4</p>
             </Link>
           </div>
         </div>

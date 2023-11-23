@@ -1,7 +1,8 @@
 import React from 'react';
 import './Game.css';
 import Header from '../../components/header';
-import { Input, Radio, Rate } from 'antd';
+import { Button, Input, Radio, Rate } from 'antd';
+import TextArea from 'antd/es/input/TextArea';
 
 const Game = () => {
     return (
@@ -24,23 +25,29 @@ const Game = () => {
                     </div>
                 </div>
                 <div className='rightRectangles'>
-    <div className='smallRectangle'>
-        <div>
-            <p>Simulando impuestos y cobros</p>
-            <button >Pay</button>
-        </div>
-    </div>
-    <div className='smallRectangle'>
-        <div>
-            <p>Your Review</p>
-            <div>
-                <Rate allowHalf defaultValue={2.5} />
-                <input type="text" placeholder="Write a review" />
-                <button>Submit</button>
-            </div>
-        </div>
-    </div>
-</div>
+                    <div className='smallRectangle'>
+                        <div>
+                            <p>
+
+
+                                - Tax Rate: 10% <br />
+                                - Game Price: $49.99 <br />
+                                - Total Price (including taxes): $54.99 <br />
+                            </p>
+                            <Button >Pay</Button>
+                        </div>
+                    </div>
+                    <div className='smallRectangle'>
+                        <div>
+                            <p>Your Review</p>
+                            <div>
+                                <Rate allowHalf defaultValue={2.5} />
+                                <TextArea rows={4} placeholder="Your review..." maxLength={6} />
+                                <Button>Submit</Button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
